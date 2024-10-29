@@ -11,43 +11,6 @@ A FastAPI-based application for managing and analyzing sensor readings in manufa
 - Authentication and authorization
 - Containerized deployment support
 
-## Project Structure
-
-```
-smart-manufacturing-optimizer/
-├── backend/
-│   ├── app/
-│   │   ├── api/
-│   │   │   └── v1/
-│   │   │       ├── endpoints/
-│   │   │       │   └── sensor_reading.py
-│   │   │       └── router.py
-│   │   ├── core/
-│   │   │   └── security.py
-│   │   ├── db/
-│   │   │   └── src/
-│   │   │       ├── base.py
-│   │   │       └── session.py
-│   │   ├── models/
-│   │   │   └── sensor_reading.py
-│   │   ├── schemas/
-│   │   │   └── sensor_reading.py
-│   │   └── services/
-│   │       └── sensor_service.py
-│   ├── tests/
-│   ├── alembic/
-│   └── main.py
-├── frontend/
-└── ml_pipeline/
-```
-
-## Prerequisites
-
-- Python 3.9+
-- PostgreSQL/SQLite
-- Node.js (for frontend)
-- Docker (optional)
-
 ## Setup
 
 1. Clone the repository:
@@ -150,5 +113,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/smart-manufacturing-optimizer
+Your Name - sethwmartin29@gmail.com
+Project Link: https://github.com/SethWM96/smart-manufacturing-optimizer
